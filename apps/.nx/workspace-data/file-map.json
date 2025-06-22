@@ -172,7 +172,7 @@
         },
         {
           "file": "teams/module-app/tailwind.config.js",
-          "hash": "10836344160505254453"
+          "hash": "16504728781479685219"
         },
         {
           "file": "teams/module-app/tsconfig.app.json",
@@ -246,7 +246,7 @@
         },
         {
           "file": "teams/module-activities/src/app/module-activities-list.tsx",
-          "hash": "3874141604159065804"
+          "hash": "5850158667692733038"
         },
         {
           "file": "teams/module-activities/src/app/team-blue-basket.tsx",

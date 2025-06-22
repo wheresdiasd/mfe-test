@@ -12,6 +12,10 @@ module.exports = {
       __dirname,
       "../module-storefront/src/**/*!(*.stories|*.spec).{ts,tsx,html}",
     ),
+    join(
+      __dirname,
+      "../module-activities/src/**/*!(*.stories|*.spec).{ts,tsx,html}",
+    ),
     ...createGlobPatternsForDependencies(__dirname),
   ],
   theme: {
