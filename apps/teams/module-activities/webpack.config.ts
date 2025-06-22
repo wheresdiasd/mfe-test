@@ -1,18 +1,20 @@
-import { withReact } from '@nx/react';
-import { withModuleFederation } from '@nx/module-federation/webpack';
-import { ModuleFederationConfig } from '@nx/module-federation';
-import { composePlugins, withNx } from '@nx/webpack';
-import { withZephyr } from 'zephyr-webpack-plugin';
+import { withReact } from "@nx/react";
+import { withModuleFederation } from "@nx/module-federation/webpack";
+import { ModuleFederationConfig } from "@nx/module-federation";
+import { composePlugins, withNx } from "@nx/webpack";
+import { withZephyr } from "zephyr-webpack-plugin";
 
 const mfConfig: ModuleFederationConfig = {
-  name: 'module_activities',
+  name: "module_activities",
   exposes: {
-    './BlueBasket': './src/app/team-blue-basket.tsx',
-    './BlueBuy': './src/app/team-blue-buy.tsx',
+    "./ActivitiesList": "./src/app/module-activities-list.tsx",
+    "./BlueBuy": "./src/app/team-blue-buy.tsx",
   },
   additionalShared: [
-    ['react', { singleton: true }] ,
-    ['react-dom', { singleton: true }] ,
+    ["react", { singleton: true }],
+    ["react-dom", { singleton: true }],
+    ["@tanstack/react-query", { singleton: true }],
+    ["rxjs", { singleton: true }],
   ],
 };
 

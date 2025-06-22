@@ -1,5 +1,10 @@
 {
   "name": "module_activities",
   "version": "0.1.0",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@tanstack/react-query": "^5.81.2",
+    "@tanstack/react-query-devtools": "^5.81.2",
+    "rxjs": "^7.8.2"
+  }
 }

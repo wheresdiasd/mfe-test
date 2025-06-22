@@ -23,8 +23,8 @@
           "hash": "13541166465387306573"
         },
         {
-          "file": "teams/module-app/@mf-types/module_activities/BlueBasket.d.ts",
-          "hash": "16248385919662250816"
+          "file": "teams/module-app/@mf-types/module_activities/ActivitiesList.d.ts",
+          "hash": "16099523296132431927"
         },
         {
           "file": "teams/module-app/@mf-types/module_activities/BlueBuy.d.ts",
@@ -32,15 +32,19 @@
         },
         {
           "file": "teams/module-app/@mf-types/module_activities/apis.d.ts",
-          "hash": "14044252754182279196"
+          "hash": "320608357450822526"
         },
         {
-          "file": "teams/module-app/@mf-types/module_activities/compiled-types/teams/module-activities/src/app/team-blue-basket.d.ts",
-          "hash": "4630530149814985812"
+          "file": "teams/module-app/@mf-types/module_activities/compiled-types/teams/module-activities/src/app/module-activities-list.d.ts",
+          "hash": "15536109582540211875"
         },
         {
           "file": "teams/module-app/@mf-types/module_activities/compiled-types/teams/module-activities/src/app/team-blue-buy.d.ts",
           "hash": "18062642449912483088"
+        },
+        {
+          "file": "teams/module-app/@mf-types/module_activities/compiled-types/teams/module-activities/src/app/use-activities.d.ts",
+          "hash": "14330122348068941259"
         },
         {
           "file": "teams/module-app/@mf-types/module_storefront/StorefrontHeader.d.ts",
@@ -60,7 +64,7 @@
         },
         {
           "file": "teams/module-app/package.json",
-          "hash": "3155905452608755420"
+          "hash": "11390697611744740927"
         },
         {
           "file": "teams/module-app/postcss.config.js",
@@ -76,11 +80,15 @@
         },
         {
           "file": "teams/module-app/src/app/app.tsx",
-          "hash": "6529425145964522613"
+          "hash": "13615428916783826016"
+        },
+        {
+          "file": "teams/module-app/src/app/query-client-provider.tsx",
+          "hash": "15932990771170105897"
         },
         {
           "file": "teams/module-app/src/app/team-red-layout.tsx",
-          "hash": "6907682271707840661"
+          "hash": "15607683121971262439"
         },
         {
           "file": "teams/module-app/src/assets/.gitkeep",
@@ -180,7 +188,7 @@
         },
         {
           "file": "teams/module-app/webpack.config.ts",
-          "hash": "17134162013720251660"
+          "hash": "1551940963863280928"
         }
       ],
       "module_activities": [
@@ -197,16 +205,36 @@
           "hash": "12678463301772327123"
         },
         {
+          "file": "teams/module-activities/@mf-types/module_app/AppQueryProvider.d.ts",
+          "hash": "15895375219712105601"
+        },
+        {
+          "file": "teams/module-activities/@mf-types/module_app/TeamRedLayout.d.ts",
+          "hash": "4891109848798669823"
+        },
+        {
+          "file": "teams/module-activities/@mf-types/module_app/compiled-types/teams/module-app/src/app/query-client-provider.d.ts",
+          "hash": "16823659986620058273"
+        },
+        {
+          "file": "teams/module-activities/@mf-types/module_app/compiled-types/teams/module-app/src/app/team-red-layout.d.ts",
+          "hash": "11988864738854467004"
+        },
+        {
           "file": "teams/module-activities/jest.config.ts",
           "hash": "7091832110547054190"
         },
         {
           "file": "teams/module-activities/package.json",
-          "hash": "6946816072852097261"
+          "hash": "11563555499006978273"
+        },
+        {
+          "file": "teams/module-activities/postcss.config.js",
+          "hash": "15972724582657845432"
         },
         {
           "file": "teams/module-activities/project.json",
-          "hash": "13862286909678916042"
+          "hash": "4863419693245823394"
         },
         {
           "file": "teams/module-activities/src/.DS_Store",
@@ -214,7 +242,11 @@
         },
         {
           "file": "teams/module-activities/src/app/app.tsx",
-          "hash": "6107692350377305952"
+          "hash": "853413756651088162"
+        },
+        {
+          "file": "teams/module-activities/src/app/module-activities-list.tsx",
+          "hash": "3874141604159065804"
         },
         {
           "file": "teams/module-activities/src/app/team-blue-basket.tsx",
@@ -223,6 +255,10 @@
         {
           "file": "teams/module-activities/src/app/team-blue-buy.tsx",
           "hash": "11916236347642313109"
+        },
+        {
+          "file": "teams/module-activities/src/app/use-activities.tsx",
+          "hash": "18135550799654851561"
         },
         {
           "file": "teams/module-activities/src/assets/.gitkeep",
@@ -238,7 +274,11 @@
         },
         {
           "file": "teams/module-activities/src/styles.css",
-          "hash": "5195668842064076916"
+          "hash": "9540575453073076294"
+        },
+        {
+          "file": "teams/module-activities/tailwind.config.js",
+          "hash": "13090734457927965885"
         },
         {
           "file": "teams/module-activities/tsconfig.app.json",
@@ -246,7 +286,7 @@
         },
         {
           "file": "teams/module-activities/tsconfig.json",
-          "hash": "858361351329009520"
+          "hash": "3649896606227811596"
         },
         {
           "file": "teams/module-activities/tsconfig.spec.json",
@@ -254,7 +294,7 @@
         },
         {
           "file": "teams/module-activities/webpack.config.ts",
-          "hash": "13815813704591279141"
+          "hash": "3134427890854326817"
         }
       ],
       "module_storefront": [

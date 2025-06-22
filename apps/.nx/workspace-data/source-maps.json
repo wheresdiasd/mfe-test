@@ -112,6 +112,10 @@
       "teams/module-activities/project.json",
       "nx/core/project-json"
     ],
+    "targets.build.options.postcssConfig": [
+      "teams/module-activities/project.json",
+      "nx/core/project-json"
+    ],
     "targets.build.configurations.development": [
       "teams/module-activities/project.json",
       "nx/core/project-json"

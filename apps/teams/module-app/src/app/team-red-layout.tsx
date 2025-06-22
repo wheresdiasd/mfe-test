@@ -3,6 +3,10 @@ import { useEffect, useState, lazy, Suspense } from "react";
 const StorefrontHeader = lazy(
   () => import("module_storefront/StorefrontHeader"),
 );
+
+const ActivitiesList = lazy(
+  () => import("module_activities/ActivitiesList"),
+);
 // const BlueBasket = lazy(() => import('module_activities/BlueBasket'));
 // const BlueBuy = lazy(() => import('module_activities/BlueBuy'));
 
@@ -64,7 +68,12 @@ export function TeamRedLayout({ id }: { id: string }) {
     };
   }, []);
 
-  return <StorefrontHeader />;
+  return (
+    <>
+      <StorefrontHeader />
+      <ActivitiesList />
+    </>
+  );
 }
 
 export default TeamRedLayout;

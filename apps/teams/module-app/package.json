@@ -8,5 +8,10 @@
   "zephyr:dependencies": {
     "module_storefront": "module_storefront@*",
     "module_activities": "module_activities@*"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.81.2",
+    "@tanstack/react-query-devtools": "^5.81.2",
+    "rxjs": "^7.8.2"
   }
 }

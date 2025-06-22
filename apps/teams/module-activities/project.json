@@ -7,7 +7,9 @@
   "targets": {
     "build": {
       "executor": "@nx/webpack:webpack",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "defaultConfiguration": "production",
       "options": {
         "compiler": "babel",
@@ -21,7 +23,8 @@
           "teams/module-activities/src/styles.css"
         ],
         "scripts": [],
-        "webpackConfig": "teams/module-activities/webpack.config.ts"
+        "webpackConfig": "teams/module-activities/webpack.config.ts",
+        "postcssConfig": "teams/module-activities/postcss.config.js"
       },
       "configurations": {
         "development": {
@@ -67,12 +70,16 @@
     "lint": {
       "executor": "@nx/eslint:lint",
       "options": {
-        "lintFilePatterns": ["{projectRoot}/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": [
+          "{projectRoot}/**/*.{ts,tsx,js,jsx}"
+        ]
       }
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
       "options": {
         "jestConfig": "teams/module-activities/jest.config.ts",
         "passWithNoTests": true
