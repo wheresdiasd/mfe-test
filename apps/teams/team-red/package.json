@@ -6,7 +6,7 @@
   },
   "private": true,
   "zephyr:dependencies": {
-    "team_green": "team_green@*",
-    "team_blue": "team_blue@*"
+    "module_storefront": "module_storefront@*",
+    "module_activities": "module_activities@*"
   }
 }

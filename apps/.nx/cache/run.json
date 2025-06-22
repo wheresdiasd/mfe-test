@@ -1,18 +1,18 @@
 {
   "run": {
-    "command": "nx run team_green:serve",
-    "startTime": "2025-06-22T00:15:50.815Z",
-    "endTime": "2025-06-22T00:15:51.411Z",
+    "command": "nx run team_red:build --skip-nx-cache",
+    "startTime": "2025-06-22T10:01:33.624Z",
+    "endTime": "2025-06-22T10:01:37.015Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "team_green:serve:development",
-      "target": "serve",
-      "projectName": "team_green",
-      "hash": "11261345360871371900",
-      "startTime": "2025-06-22T00:15:50.846Z",
-      "endTime": "2025-06-22T00:15:51.410Z",
+      "taskId": "team_red:build:production",
+      "target": "build",
+      "projectName": "team_red",
+      "hash": "16155464582240130009",
+      "startTime": "2025-06-22T10:01:33.651Z",
+      "endTime": "2025-06-22T10:01:37.014Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1

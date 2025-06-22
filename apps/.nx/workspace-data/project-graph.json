@@ -1,5 +1,119 @@
 {
   "nodes": {
+    "module_activities": {
+      "name": "module_activities",
+      "type": "app",
+      "data": {
+        "root": "teams/module-activities",
+        "name": "module_activities",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "module_activities",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@nx/webpack:webpack",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "defaultConfiguration": "production",
+            "options": {
+              "compiler": "babel",
+              "outputPath": "dist/teams/module-activities",
+              "index": "teams/module-activities/src/index.html",
+              "baseHref": "/",
+              "main": "teams/module-activities/src/main.tsx",
+              "tsConfig": "teams/module-activities/tsconfig.app.json",
+              "assets": [],
+              "styles": [
+                "teams/module-activities/src/styles.css"
+              ],
+              "scripts": [],
+              "webpackConfig": "teams/module-activities/webpack.config.ts"
+            },
+            "configurations": {
+              "development": {
+                "extractLicenses": false,
+                "optimization": false,
+                "sourceMap": true,
+                "vendorChunk": true
+              },
+              "production": {
+                "fileReplacements": [
+                  {
+                    "replace": "teams/module-activities/src/environments/environment.ts",
+                    "with": "teams/module-activities/src/environments/environment.prod.ts"
+                  }
+                ],
+                "optimization": true,
+                "outputHashing": "all",
+                "sourceMap": false,
+                "namedChunks": false,
+                "extractLicenses": true,
+                "vendorChunk": false
+              }
+            },
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "@nx/webpack:dev-server",
+            "defaultConfiguration": "development",
+            "options": {
+              "port": 4300,
+              "buildTarget": "module_activities:build",
+              "hmr": false
+            },
+            "configurations": {
+              "development": {
+                "buildTarget": "module_activities:build:development"
+              },
+              "production": {
+                "buildTarget": "module_activities:build:production",
+                "hmr": false
+              }
+            },
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "options": {
+              "lintFilePatterns": [
+                "teams/module-activities/**/*.{ts,tsx,js,jsx}"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "jestConfig": "teams/module-activities/jest.config.ts",
+              "passWithNoTests": true
+            },
+            "configurations": {
+              "ci": {
+                "ci": true,
+                "codeCoverage": true
+              }
+            },
+            "parallelism": true
+          }
+        },
+        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "teams/module-activities/src",
+        "projectType": "application",
+        "implicitDependencies": []
+      }
+    },
     "module_storefront": {
       "name": "module_storefront",
       "type": "app",
@@ -110,120 +224,6 @@
         },
         "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
         "sourceRoot": "teams/module-storefront/src",
-        "projectType": "application",
-        "implicitDependencies": []
-      }
-    },
-    "team_blue": {
-      "name": "team_blue",
-      "type": "app",
-      "data": {
-        "root": "teams/activities",
-        "name": "team_blue",
-        "tags": [
-          "npm:private"
-        ],
-        "metadata": {
-          "targetGroups": {},
-          "js": {
-            "packageName": "team_blue",
-            "isInPackageManagerWorkspaces": false
-          }
-        },
-        "targets": {
-          "build": {
-            "executor": "@nx/webpack:webpack",
-            "outputs": [
-              "{options.outputPath}"
-            ],
-            "defaultConfiguration": "production",
-            "options": {
-              "compiler": "babel",
-              "outputPath": "dist/teams/team-blue",
-              "index": "teams/team-blue/src/index.html",
-              "baseHref": "/",
-              "main": "teams/team-blue/src/main.tsx",
-              "tsConfig": "teams/team-blue/tsconfig.app.json",
-              "assets": [],
-              "styles": [
-                "teams/team-blue/src/styles.css"
-              ],
-              "scripts": [],
-              "webpackConfig": "teams/team-blue/webpack.config.ts"
-            },
-            "configurations": {
-              "development": {
-                "extractLicenses": false,
-                "optimization": false,
-                "sourceMap": true,
-                "vendorChunk": true
-              },
-              "production": {
-                "fileReplacements": [
-                  {
-                    "replace": "teams/team-blue/src/environments/environment.ts",
-                    "with": "teams/team-blue/src/environments/environment.prod.ts"
-                  }
-                ],
-                "optimization": true,
-                "outputHashing": "all",
-                "sourceMap": false,
-                "namedChunks": false,
-                "extractLicenses": true,
-                "vendorChunk": false
-              }
-            },
-            "parallelism": true
-          },
-          "serve": {
-            "executor": "@nx/webpack:dev-server",
-            "defaultConfiguration": "development",
-            "options": {
-              "port": 4300,
-              "buildTarget": "team_blue:build",
-              "hmr": false
-            },
-            "configurations": {
-              "development": {
-                "buildTarget": "team_blue:build:development"
-              },
-              "production": {
-                "buildTarget": "team_blue:build:production",
-                "hmr": false
-              }
-            },
-            "parallelism": true
-          },
-          "lint": {
-            "executor": "@nx/eslint:lint",
-            "options": {
-              "lintFilePatterns": [
-                "teams/activities/**/*.{ts,tsx,js,jsx}"
-              ]
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "test": {
-            "executor": "@nx/jest:jest",
-            "outputs": [
-              "{workspaceRoot}/coverage/{projectRoot}"
-            ],
-            "options": {
-              "jestConfig": "teams/team-blue/jest.config.ts",
-              "passWithNoTests": true
-            },
-            "configurations": {
-              "ci": {
-                "ci": true,
-                "codeCoverage": true
-              }
-            },
-            "parallelism": true
-          }
-        },
-        "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "teams/team-blue/src",
         "projectType": "application",
         "implicitDependencies": []
       }
@@ -345,11 +345,11 @@
   },
   "externalNodes": {},
   "dependencies": {
+    "module_activities": [],
     "module_storefront": [],
-    "team_blue": [],
     "team_red": []
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1750584945258
+  "computedAt": 1750586880814
 }

@@ -1,6 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 
-import GreenRecos from './ui-storefront-recos';
+import GreenRecos from './storefront-recos';
 import * as ReactDOM from 'react-dom/client';
 import { StrictMode } from 'react';
 

@@ -1,8 +1,8 @@
 import { useEffect, useState, lazy, Suspense } from 'react';
 
-const StorefrontRecos = lazy(() => import('ui_storefront/StorefrontRecos'));
-const BlueBasket = lazy(() => import('team_blue/BlueBasket'));
-const BlueBuy = lazy(() => import('team_blue/BlueBuy'));
+const StorefrontRecos = lazy(() => import('module_storefront/StorefrontRecos'));
+const BlueBasket = lazy(() => import('module_activities/BlueBasket'));
+const BlueBuy = lazy(() => import('module_activities/BlueBuy'));
 
 interface VariantOption {
   sku: string;

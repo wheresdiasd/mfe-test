@@ -5,7 +5,7 @@ import { composePlugins, withNx } from '@nx/webpack';
 import { withZephyr } from 'zephyr-webpack-plugin';
 
 const mfConfig: ModuleFederationConfig = {
-  name: 'team_blue',
+  name: 'module_activities',
   exposes: {
     './BlueBasket': './src/app/team-blue-basket.tsx',
     './BlueBuy': './src/app/team-blue-buy.tsx',
