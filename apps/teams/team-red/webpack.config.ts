@@ -13,7 +13,7 @@ const mfConfig: ModuleFederationConfig = {
     ['react', { singleton: true }] ,
     ['react-dom', { singleton: true }] ,
   ],
-  remotes: ['team_green', 'team_blue'],
+  remotes: ['ui_storefront', 'team_blue'],
 };
 
 // Nx plugins for webpack.

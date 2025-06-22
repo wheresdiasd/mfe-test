@@ -1,18 +1,18 @@
 {
   "nodes": {
-    "team_green": {
-      "name": "team_green",
+    "ui_storefront": {
+      "name": "ui_storefront",
       "type": "app",
       "data": {
-        "root": "teams/team-green",
-        "name": "team_green",
+        "root": "teams/ui-storefront",
+        "name": "ui_storefront",
         "tags": [
           "npm:private"
         ],
         "metadata": {
           "targetGroups": {},
           "js": {
-            "packageName": "team_green",
+            "packageName": "ui_storefront",
             "isInPackageManagerWorkspaces": false
           }
         },
@@ -25,23 +25,23 @@
             "defaultConfiguration": "production",
             "options": {
               "compiler": "babel",
-              "outputPath": "dist/teams/team-green",
-              "index": "teams/team-green/src/index.html",
+              "outputPath": "dist/teams/ui-storefront",
+              "index": "teams/ui-storefront/src/index.html",
               "baseHref": "/",
-              "main": "teams/team-green/src/main.tsx",
-              "tsConfig": "teams/team-green/tsconfig.app.json",
+              "main": "teams/ui-storefront/src/main.tsx",
+              "tsConfig": "teams/ui-storefront/tsconfig.app.json",
               "assets": [
                 {
                   "glob": "**/*",
-                  "input": "teams/team-green/src/assets",
+                  "input": "teams/ui-storefront/src/assets",
                   "output": "."
                 }
               ],
               "styles": [
-                "teams/team-green/src/styles.css"
+                "teams/ui-storefront/src/styles.css"
               ],
               "scripts": [],
-              "webpackConfig": "teams/team-green/webpack.config.ts"
+              "webpackConfig": "teams/ui-storefront/webpack.config.ts"
             },
             "configurations": {
               "development": {
@@ -66,15 +66,15 @@
             "defaultConfiguration": "development",
             "options": {
               "port": 4400,
-              "buildTarget": "team_green:build",
+              "buildTarget": "ui_storefront:build",
               "hmr": false
             },
             "configurations": {
               "development": {
-                "buildTarget": "team_green:build:development"
+                "buildTarget": "ui_storefront:build:development"
               },
               "production": {
-                "buildTarget": "team_green:build:production",
+                "buildTarget": "ui_storefront:build:production",
                 "hmr": false
               }
             },
@@ -84,7 +84,7 @@
             "executor": "@nx/eslint:lint",
             "options": {
               "lintFilePatterns": [
-                "teams/team-green/**/*.{ts,tsx,js,jsx}"
+                "teams/ui-storefront/**/*.{ts,tsx,js,jsx}"
               ]
             },
             "configurations": {},
@@ -96,7 +96,7 @@
               "{workspaceRoot}/coverage/{projectRoot}"
             ],
             "options": {
-              "jestConfig": "teams/team-green/jest.config.ts",
+              "jestConfig": "teams/ui-storefront/jest.config.ts",
               "passWithNoTests": true
             },
             "configurations": {
@@ -109,7 +109,7 @@
           }
         },
         "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "teams/team-green/src",
+        "sourceRoot": "teams/ui-storefront/src",
         "projectType": "application",
         "implicitDependencies": []
       }
@@ -345,11 +345,11 @@
   },
   "externalNodes": {},
   "dependencies": {
-    "team_green": [],
+    "ui_storefront": [],
     "team_blue": [],
     "team_red": []
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1750551483034
+  "computedAt": 1750554735881
 }

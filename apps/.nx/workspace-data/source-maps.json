@@ -273,276 +273,6 @@
       "nx/core/project-json"
     ]
   },
-  "teams/team-green": {
-    "root": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "name": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "tags": [
-      "teams/team-green/package.json",
-      "nx/core/package-json"
-    ],
-    "tags.npm:private": [
-      "teams/team-green/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups": [
-      "teams/team-green/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js": [
-      "teams/team-green/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageName": [
-      "teams/team-green/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.isInPackageManagerWorkspaces": [
-      "teams/team-green/package.json",
-      "nx/core/package-json"
-    ],
-    "targets": [
-      "teams/team-green/package.json",
-      "nx/core/package-json"
-    ],
-    "$schema": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "sourceRoot": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.executor": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.outputs": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.defaultConfiguration": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.compiler": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.outputPath": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.index": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.baseHref": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.main": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.tsConfig": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.assets": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.styles": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.scripts": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.webpackConfig": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.development": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.development.extractLicenses": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.development.optimization": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.development.sourceMap": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.development.vendorChunk": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.production": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.production.optimization": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.production.outputHashing": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.production.sourceMap": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.production.namedChunks": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.production.extractLicenses": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.production.vendorChunk": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.executor": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.defaultConfiguration": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options.port": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options.buildTarget": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options.hmr": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.development": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.development.buildTarget": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.production": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.production.buildTarget": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.configurations.production.hmr": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.executor": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.options": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.options.lintFilePatterns": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.executor": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.outputs": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.options": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.configurations": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.options.jestConfig": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.options.passWithNoTests": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.configurations.ci": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.configurations.ci.ci": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.configurations.ci.codeCoverage": [
-      "teams/team-green/project.json",
-      "nx/core/project-json"
-    ]
-  },
   "teams/team-red": {
     "root": [
       "teams/team-red/project.json",
@@ -810,6 +540,276 @@
     ],
     "targets.test.configurations.ci.codeCoverage": [
       "teams/team-red/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "teams/ui-storefront": {
+    "root": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "teams/ui-storefront/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "teams/ui-storefront/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "teams/ui-storefront/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "teams/ui-storefront/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "teams/ui-storefront/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "teams/ui-storefront/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "teams/ui-storefront/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.compiler": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.baseHref": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.scripts": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.webpackConfig": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.vendorChunk": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.optimization": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.sourceMap": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.namedChunks": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.extractLicenses": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.vendorChunk": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.hmr": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.hmr": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.ci": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.ci.ci": [
+      "teams/ui-storefront/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.ci.codeCoverage": [
+      "teams/ui-storefront/project.json",
       "nx/core/project-json"
     ]
   }

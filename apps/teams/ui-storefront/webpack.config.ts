@@ -5,9 +5,9 @@ import { composePlugins, withNx } from '@nx/webpack';
 import { withZephyr } from 'zephyr-webpack-plugin';
 
 const mfConfig: ModuleFederationConfig = {
-  name: 'team_green',
+  name: 'ui_storefront',
   exposes: {
-    './GreenRecos': './src/app/team-green-recos.tsx',
+    './UiStorefrontRecos': './src/app/ui-storefront-recos.tsx',
   },
   additionalShared: [
     ['react', { singleton: true }] ,
