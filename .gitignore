@@ -1,5 +1,9 @@
+*/dist/
+*/*/dist/
 /node_modules/
-/apps/*/node_modules/
-/apps/*/dist/
-/apps/node_modules
-/apps/dist
+*/teams/*/node_modules/
+*/teams/*/node_modules/
+*/teams/node_modules/
+*/teams/dist/
+*/node_modules/
+*/.nx

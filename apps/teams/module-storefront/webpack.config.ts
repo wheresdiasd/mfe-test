@@ -5,9 +5,9 @@ import { composePlugins, withNx } from '@nx/webpack';
 import { withZephyr } from 'zephyr-webpack-plugin';
 
 const mfConfig: ModuleFederationConfig = {
-  name: 'ui_storefront',
+  name: 'module_storefront',
   exposes: {
-    './UiStorefrontRecos': './src/app/ui-storefront-recos.tsx',
+    './StorefrontRecos': './src/app/storefront-recos.tsx',
   },
   additionalShared: [
     ['react', { singleton: true }] ,

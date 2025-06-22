@@ -1,7 +1,7 @@
 {
-  "name": "ui_storefront",
+  "name": "module_storefront",
   "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "teams/ui-storefront/src",
+  "sourceRoot": "teams/module-storefront/src",
   "projectType": "application",
   "tags": [],
   "targets": {
@@ -11,23 +11,23 @@
       "defaultConfiguration": "production",
       "options": {
         "compiler": "babel",
-        "outputPath": "dist/teams/ui-storefront",
-        "index": "teams/ui-storefront/src/index.html",
+        "outputPath": "dist/teams/module-storefront",
+        "index": "teams/module-storefront/src/index.html",
         "baseHref": "/",
-        "main": "teams/ui-storefront/src/main.tsx",
-        "tsConfig": "teams/ui-storefront/tsconfig.app.json",
+        "main": "teams/module-storefront/src/main.tsx",
+        "tsConfig": "teams/module-storefront/tsconfig.app.json",
         "assets": [
           {
             "glob": "**/*",
-            "input": "teams/ui-storefront/src/assets",
+            "input": "teams/module-storefront/src/assets",
             "output": "."
           }
         ],
         "styles": [
-          "teams/ui-storefront/src/styles.css"
+          "teams/module-storefront/src/styles.css"
         ],
         "scripts": [],
-        "webpackConfig": "teams/ui-storefront/webpack.config.ts"
+        "webpackConfig": "teams/module-storefront/webpack.config.ts"
       },
       "configurations": {
         "development": {
@@ -51,15 +51,15 @@
       "defaultConfiguration": "development",
       "options": {
         "port": 4400,
-        "buildTarget": "ui_storefront:build",
+        "buildTarget": "module_storefront:build",
         "hmr": false
       },
       "configurations": {
         "development": {
-          "buildTarget": "ui_storefront:build:development"
+          "buildTarget": "module_storefront:build:development"
         },
         "production": {
-          "buildTarget": "ui_storefront:build:production",
+          "buildTarget": "module_storefront:build:production",
           "hmr": false
         }
       }
@@ -74,7 +74,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "teams/ui-storefront/jest.config.ts",
+        "jestConfig": "teams/module-storefront/jest.config.ts",
         "passWithNoTests": true
       },
       "configurations": {

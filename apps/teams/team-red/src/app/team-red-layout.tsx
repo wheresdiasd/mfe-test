@@ -1,6 +1,6 @@
 import { useEffect, useState, lazy, Suspense } from 'react';
 
-const UiStorefrontRecos = lazy(() => import('ui_storefront/UiStorefrontRecos'));
+const StorefrontRecos = lazy(() => import('ui_storefront/StorefrontRecos'));
 const BlueBasket = lazy(() => import('team_blue/BlueBasket'));
 const BlueBuy = lazy(() => import('team_blue/BlueBuy'));
 
@@ -106,7 +106,7 @@ export function TeamRedLayout({ id }: { id: string }) {
             <BlueBuy id="buy" sku={variant.sku}></BlueBuy>
           </Suspense>
           <Suspense fallback={<div>Loading...</div>}>
-            <UiStorefrontRecos id="reco" sku={variant.sku}></UiStorefrontRecos>
+            <StorefrontRecos id="reco" sku={variant.sku}></StorefrontRecos>
           </Suspense>
         </>
       ) : null}

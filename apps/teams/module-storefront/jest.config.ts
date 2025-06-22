@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'ui-storefront',
+  displayName: 'module-storefront',
   preset: '../../../../jest.preset.js',
   transform: {
     '^(?!.*\\.(js|jsx|ts|tsx|css|json)$)': '@nx/react/plugins/jest',
@@ -8,5 +8,5 @@ export default {
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
   coverageDirectory:
-    '../../coverage/apps/ui-storefront',
+    '../../coverage/apps/module-storefront',
 };

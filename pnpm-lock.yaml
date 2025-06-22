@@ -233,9 +233,9 @@ importers:
 
   apps/teams/team-blue: {}
 
-  apps/teams/team-green: {}
-
   apps/teams/team-red: {}
+
+  apps/teams/ui-storefront: {}
 
   scripts:
     dependencies:

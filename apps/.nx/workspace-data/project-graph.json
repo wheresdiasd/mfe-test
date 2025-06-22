@@ -1,18 +1,18 @@
 {
   "nodes": {
-    "ui_storefront": {
-      "name": "ui_storefront",
+    "module_storefront": {
+      "name": "module_storefront",
       "type": "app",
       "data": {
-        "root": "teams/ui-storefront",
-        "name": "ui_storefront",
+        "root": "teams/module-storefront",
+        "name": "module_storefront",
         "tags": [
           "npm:private"
         ],
         "metadata": {
           "targetGroups": {},
           "js": {
-            "packageName": "ui_storefront",
+            "packageName": "module_storefront",
             "isInPackageManagerWorkspaces": false
           }
         },
@@ -25,23 +25,23 @@
             "defaultConfiguration": "production",
             "options": {
               "compiler": "babel",
-              "outputPath": "dist/teams/ui-storefront",
-              "index": "teams/ui-storefront/src/index.html",
+              "outputPath": "dist/teams/module-storefront",
+              "index": "teams/module-storefront/src/index.html",
               "baseHref": "/",
-              "main": "teams/ui-storefront/src/main.tsx",
-              "tsConfig": "teams/ui-storefront/tsconfig.app.json",
+              "main": "teams/module-storefront/src/main.tsx",
+              "tsConfig": "teams/module-storefront/tsconfig.app.json",
               "assets": [
                 {
                   "glob": "**/*",
-                  "input": "teams/ui-storefront/src/assets",
+                  "input": "teams/module-storefront/src/assets",
                   "output": "."
                 }
               ],
               "styles": [
-                "teams/ui-storefront/src/styles.css"
+                "teams/module-storefront/src/styles.css"
               ],
               "scripts": [],
-              "webpackConfig": "teams/ui-storefront/webpack.config.ts"
+              "webpackConfig": "teams/module-storefront/webpack.config.ts"
             },
             "configurations": {
               "development": {
@@ -66,15 +66,15 @@
             "defaultConfiguration": "development",
             "options": {
               "port": 4400,
-              "buildTarget": "ui_storefront:build",
+              "buildTarget": "module_storefront:build",
               "hmr": false
             },
             "configurations": {
               "development": {
-                "buildTarget": "ui_storefront:build:development"
+                "buildTarget": "module_storefront:build:development"
               },
               "production": {
-                "buildTarget": "ui_storefront:build:production",
+                "buildTarget": "module_storefront:build:production",
                 "hmr": false
               }
             },
@@ -84,7 +84,7 @@
             "executor": "@nx/eslint:lint",
             "options": {
               "lintFilePatterns": [
-                "teams/ui-storefront/**/*.{ts,tsx,js,jsx}"
+                "teams/module-storefront/**/*.{ts,tsx,js,jsx}"
               ]
             },
             "configurations": {},
@@ -96,7 +96,7 @@
               "{workspaceRoot}/coverage/{projectRoot}"
             ],
             "options": {
-              "jestConfig": "teams/ui-storefront/jest.config.ts",
+              "jestConfig": "teams/module-storefront/jest.config.ts",
               "passWithNoTests": true
             },
             "configurations": {
@@ -109,7 +109,7 @@
           }
         },
         "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "teams/ui-storefront/src",
+        "sourceRoot": "teams/module-storefront/src",
         "projectType": "application",
         "implicitDependencies": []
       }
@@ -118,7 +118,7 @@
       "name": "team_blue",
       "type": "app",
       "data": {
-        "root": "teams/team-blue",
+        "root": "teams/activities",
         "name": "team_blue",
         "tags": [
           "npm:private"
@@ -198,7 +198,7 @@
             "executor": "@nx/eslint:lint",
             "options": {
               "lintFilePatterns": [
-                "teams/team-blue/**/*.{ts,tsx,js,jsx}"
+                "teams/activities/**/*.{ts,tsx,js,jsx}"
               ]
             },
             "configurations": {},
@@ -345,11 +345,11 @@
   },
   "externalNodes": {},
   "dependencies": {
-    "ui_storefront": [],
+    "module_storefront": [],
     "team_blue": [],
     "team_red": []
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1750554735881
+  "computedAt": 1750584945258
 }

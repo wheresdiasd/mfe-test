@@ -7,10 +7,10 @@ const recos: Record<string, string[]> = {
 };
 
 function log(...args: string[]) {
-  console.log('🖼️ ui-storefront-recos', ...args);
+  console.log('🖼️ module-storefront-recos', ...args);
 }
 
-export default function UiStorefrontRecos({ id, sku }: { id: string; sku: string }) {
+export default function StorefrontRecos({ id, sku }: { id: string; sku: string }) {
   const [reco, setReco] = useState(recos[sku] || []);
 
   log('connected', sku);
@@ -23,13 +23,11 @@ export default function UiStorefrontRecos({ id, sku }: { id: string; sku: string
 
   return (
     <div id={id}>
-      {/*---------------*/}
-      <h3>Related Products v11</h3>
-      {/*---------------*/}
+      <h3>Related Products v2</h3>
       {reco.map((id) => (
         <img
           key={id}
-          src={`./ui-storefront/images/reco_${id}.jpg`}
+          src={`./module-storefront/images/reco_${id}.jpg`}
           alt={`Reco ${id}`}
         />
       ))}
