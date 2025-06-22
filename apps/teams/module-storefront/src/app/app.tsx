@@ -1,13 +1,11 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-
-import GreenRecos from './storefront-recos';
 import * as ReactDOM from 'react-dom/client';
 import { StrictMode } from 'react';
+import StorefrontHeader from './storefront-header';
 
 export function App() {
   return (
     <div>
-      <GreenRecos id="reco" sku="t_porsche"></GreenRecos>
+      <StorefrontHeader/>
     </div>
   );
 }

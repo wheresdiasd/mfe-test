@@ -5,80 +5,6 @@
   "nxJsonPlugins": [],
   "fileMap": {
     "projectFileMap": {
-      "module_activities": [
-        {
-          "file": "teams/module-activities/.DS_Store",
-          "hash": "3730047506766383972"
-        },
-        {
-          "file": "teams/module-activities/.babelrc",
-          "hash": "13020124393823981135"
-        },
-        {
-          "file": "teams/module-activities/.eslintrc.json",
-          "hash": "12678463301772327123"
-        },
-        {
-          "file": "teams/module-activities/jest.config.ts",
-          "hash": "7091832110547054190"
-        },
-        {
-          "file": "teams/module-activities/package.json",
-          "hash": "6946816072852097261"
-        },
-        {
-          "file": "teams/module-activities/project.json",
-          "hash": "13862286909678916042"
-        },
-        {
-          "file": "teams/module-activities/src/.DS_Store",
-          "hash": "6597640876732993921"
-        },
-        {
-          "file": "teams/module-activities/src/app/app.tsx",
-          "hash": "6107692350377305952"
-        },
-        {
-          "file": "teams/module-activities/src/app/team-blue-basket.tsx",
-          "hash": "12628083870760118304"
-        },
-        {
-          "file": "teams/module-activities/src/app/team-blue-buy.tsx",
-          "hash": "11916236347642313109"
-        },
-        {
-          "file": "teams/module-activities/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "teams/module-activities/src/index.html",
-          "hash": "2915404486650625668"
-        },
-        {
-          "file": "teams/module-activities/src/main.tsx",
-          "hash": "3856793512724663860"
-        },
-        {
-          "file": "teams/module-activities/src/styles.css",
-          "hash": "5195668842064076916"
-        },
-        {
-          "file": "teams/module-activities/tsconfig.app.json",
-          "hash": "16758460447342625024"
-        },
-        {
-          "file": "teams/module-activities/tsconfig.json",
-          "hash": "858361351329009520"
-        },
-        {
-          "file": "teams/module-activities/tsconfig.spec.json",
-          "hash": "8070145506705938294"
-        },
-        {
-          "file": "teams/module-activities/webpack.config.ts",
-          "hash": "13815813704591279141"
-        }
-      ],
       "module_app": [
         {
           "file": "teams/module-app/.DS_Store",
@@ -117,16 +43,16 @@
           "hash": "18062642449912483088"
         },
         {
-          "file": "teams/module-app/@mf-types/module_storefront/StorefrontRecos.d.ts",
-          "hash": "2856679292111373783"
+          "file": "teams/module-app/@mf-types/module_storefront/StorefrontHeader.d.ts",
+          "hash": "3815176262220761008"
         },
         {
           "file": "teams/module-app/@mf-types/module_storefront/apis.d.ts",
-          "hash": "11550050674465725258"
+          "hash": "6391261526341026804"
         },
         {
-          "file": "teams/module-app/@mf-types/module_storefront/compiled-types/teams/module-storefront/src/app/storefront-recos.d.ts",
-          "hash": "14276056907103976411"
+          "file": "teams/module-app/@mf-types/module_storefront/compiled-types/teams/module-storefront/src/app/storefront-header.d.ts",
+          "hash": "9664527885694606019"
         },
         {
           "file": "teams/module-app/jest.config.ts",
@@ -137,8 +63,12 @@
           "hash": "3155905452608755420"
         },
         {
+          "file": "teams/module-app/postcss.config.js",
+          "hash": "1815035284181393237"
+        },
+        {
           "file": "teams/module-app/project.json",
-          "hash": "2578099309532718214"
+          "hash": "1167161164211797934"
         },
         {
           "file": "teams/module-app/src/.DS_Store",
@@ -150,7 +80,7 @@
         },
         {
           "file": "teams/module-app/src/app/team-red-layout.tsx",
-          "hash": "1252979322370577520"
+          "hash": "6907682271707840661"
         },
         {
           "file": "teams/module-app/src/assets/.gitkeep",
@@ -230,7 +160,11 @@
         },
         {
           "file": "teams/module-app/src/styles.css",
-          "hash": "2913395337634422838"
+          "hash": "2866083945719690482"
+        },
+        {
+          "file": "teams/module-app/tailwind.config.js",
+          "hash": "10836344160505254453"
         },
         {
           "file": "teams/module-app/tsconfig.app.json",
@@ -247,6 +181,80 @@
         {
           "file": "teams/module-app/webpack.config.ts",
           "hash": "17134162013720251660"
+        }
+      ],
+      "module_activities": [
+        {
+          "file": "teams/module-activities/.DS_Store",
+          "hash": "3730047506766383972"
+        },
+        {
+          "file": "teams/module-activities/.babelrc",
+          "hash": "13020124393823981135"
+        },
+        {
+          "file": "teams/module-activities/.eslintrc.json",
+          "hash": "12678463301772327123"
+        },
+        {
+          "file": "teams/module-activities/jest.config.ts",
+          "hash": "7091832110547054190"
+        },
+        {
+          "file": "teams/module-activities/package.json",
+          "hash": "6946816072852097261"
+        },
+        {
+          "file": "teams/module-activities/project.json",
+          "hash": "13862286909678916042"
+        },
+        {
+          "file": "teams/module-activities/src/.DS_Store",
+          "hash": "6597640876732993921"
+        },
+        {
+          "file": "teams/module-activities/src/app/app.tsx",
+          "hash": "6107692350377305952"
+        },
+        {
+          "file": "teams/module-activities/src/app/team-blue-basket.tsx",
+          "hash": "12628083870760118304"
+        },
+        {
+          "file": "teams/module-activities/src/app/team-blue-buy.tsx",
+          "hash": "11916236347642313109"
+        },
+        {
+          "file": "teams/module-activities/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "teams/module-activities/src/index.html",
+          "hash": "2915404486650625668"
+        },
+        {
+          "file": "teams/module-activities/src/main.tsx",
+          "hash": "3856793512724663860"
+        },
+        {
+          "file": "teams/module-activities/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "teams/module-activities/tsconfig.app.json",
+          "hash": "16758460447342625024"
+        },
+        {
+          "file": "teams/module-activities/tsconfig.json",
+          "hash": "858361351329009520"
+        },
+        {
+          "file": "teams/module-activities/tsconfig.spec.json",
+          "hash": "8070145506705938294"
+        },
+        {
+          "file": "teams/module-activities/webpack.config.ts",
+          "hash": "13815813704591279141"
         }
       ],
       "module_storefront": [
@@ -284,15 +292,11 @@
         },
         {
           "file": "teams/module-storefront/src/app/app.tsx",
-          "hash": "11302687079518341571"
+          "hash": "12111543155033470173"
         },
         {
-          "file": "teams/module-storefront/src/app/storefront-recos-v2.tsx",
-          "hash": "18119539959441535329"
-        },
-        {
-          "file": "teams/module-storefront/src/app/storefront-recos.tsx",
-          "hash": "965529891069102706"
+          "file": "teams/module-storefront/src/app/storefront-header.tsx",
+          "hash": "14978646371112874807"
         },
         {
           "file": "teams/module-storefront/src/assets/.gitkeep",
@@ -368,14 +372,14 @@
         },
         {
           "file": "teams/module-storefront/webpack.config.ts",
-          "hash": "18286495498248778459"
+          "hash": "194229586503058191"
         }
       ]
     },
     "nonProjectFiles": [
       {
         "file": ".DS_Store",
-        "hash": "9795542902033941990"
+        "hash": "11726989429805448961"
       },
       {
         "file": "README.md",
@@ -383,11 +387,11 @@
       },
       {
         "file": "package.json",
-        "hash": "16000186339203868215"
+        "hash": "17961268390124264689"
       },
       {
         "file": "teams/.DS_Store",
-        "hash": "7714769721959068298"
+        "hash": "4282350150631955994"
       },
       {
         "file": "tsconfig.json",

@@ -3,13 +3,14 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "nx run-many -t build --parallel=1 --skip-nx-cache -p module_activities module_storefront module-app --verbose",
-    "build:module-app": "nx run module-app:build:production --skip-nx-cache",
+    "build": "nx run-many -t build --parallel=1 --skip-nx-cache -p module_activities module_storefront module_app --verbose",
+    "build:module-app": "nx run module_app:build:production --skip-nx-cache",
     "build:module-activities": "nx run module_activities:build:production --skip-nx-cache",
     "build:module-storefront": "nx run module_storefront:build:production --skip-nx-cache  --watch"
   },
   "private": true,
   "dependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tslib": "catalog:typescript",

@@ -270,7 +270,8 @@
                 "teams/module-app/src/styles.css"
               ],
               "scripts": [],
-              "webpackConfig": "teams/module-app/webpack.config.ts"
+              "webpackConfig": "teams/module-app/webpack.config.ts",
+              "postcssConfig": "teams/module-app/postcss.config.js"
             },
             "configurations": {
               "development": {
@@ -352,5 +353,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1750592194851
+  "computedAt": 1750597989991
 }
