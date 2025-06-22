@@ -271,8 +271,12 @@
           "hash": "10507948392750239346"
         },
         {
+          "file": "teams/module-storefront/postcss.config.js",
+          "hash": "15972724582657845432"
+        },
+        {
           "file": "teams/module-storefront/project.json",
-          "hash": "14254424272898303748"
+          "hash": "10388347085460477379"
         },
         {
           "file": "teams/module-storefront/src/.DS_Store",
@@ -344,7 +348,11 @@
         },
         {
           "file": "teams/module-storefront/src/styles.css",
-          "hash": "5195668842064076916"
+          "hash": "9540575453073076294"
+        },
+        {
+          "file": "teams/module-storefront/tailwind.config.js",
+          "hash": "13090734457927965885"
         },
         {
           "file": "teams/module-storefront/tsconfig.app.json",
@@ -375,7 +383,7 @@
       },
       {
         "file": "package.json",
-        "hash": "4927674214535161249"
+        "hash": "16000186339203868215"
       },
       {
         "file": "teams/.DS_Store",

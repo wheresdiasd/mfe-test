@@ -656,6 +656,10 @@
       "teams/module-storefront/project.json",
       "nx/core/project-json"
     ],
+    "targets.build.options.postcssConfig": [
+      "teams/module-storefront/project.json",
+      "nx/core/project-json"
+    ],
     "targets.build.configurations.development": [
       "teams/module-storefront/project.json",
       "nx/core/project-json"

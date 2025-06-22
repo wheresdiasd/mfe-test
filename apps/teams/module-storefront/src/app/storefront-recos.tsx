@@ -13,26 +13,7 @@ function log(...args: string[]) {
 export default function StorefrontRecos({ id, sku }: { id: string; sku: string }) {
   const [reco, setReco] = useState(recos[sku] || []);
 
-  log('connected', sku);
-  useEffect(() => {
-    setReco(recos[sku] || []);
-    return () => {
-      log('disconnected', sku);
-    };
-  }, [sku]);
-
   return (
-    <div id={id}>
-      {/*---------------*/}
-      <h3>Related Products v11</h3>
-      {/*---------------*/}
-      {reco.map((id) => (
-        <img
-          key={id}
-          src={`./module-storefront/images/reco_${id}.jpg`}
-          alt={`Reco ${id}`}
-        />
-      ))}
-    </div>
+    <div className="bg-indigo-500 p-2 font-mono">Hello!</div>
   );
 }

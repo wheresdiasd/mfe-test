@@ -155,7 +155,8 @@
                 "teams/module-storefront/src/styles.css"
               ],
               "scripts": [],
-              "webpackConfig": "teams/module-storefront/webpack.config.ts"
+              "webpackConfig": "teams/module-storefront/webpack.config.ts",
+              "postcssConfig": "teams/module-storefront/postcss.config.js"
             },
             "configurations": {
               "development": {
@@ -351,5 +352,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1750587616752
+  "computedAt": 1750592194851
 }
