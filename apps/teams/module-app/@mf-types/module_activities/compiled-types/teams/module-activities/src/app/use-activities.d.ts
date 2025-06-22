@@ -1,9 +1,10 @@
-import { Activity, addActivity, removeActivity } from './module-activities-store';
+import { Activity } from "./module-activities-store";
 export declare function useActivities(): {
     activities: Activity[];
     loading: boolean;
-    addActivity: typeof addActivity;
-    removeActivity: typeof removeActivity;
+    count: number;
+    addActivity: (activity: Omit<Activity, "id" | "timestamp">) => void;
+    removeActivity: (id: string) => void;
     refresh: () => Promise<void>;
 };
 export default useActivities;
