@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run team_green:serve",
+    "startTime": "2025-06-22T00:15:50.815Z",
+    "endTime": "2025-06-22T00:15:51.411Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "team_green:serve:development",
+      "target": "serve",
+      "projectName": "team_green",
+      "hash": "11261345360871371900",
+      "startTime": "2025-06-22T00:15:50.846Z",
+      "endTime": "2025-06-22T00:15:51.410Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

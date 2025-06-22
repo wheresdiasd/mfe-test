@@ -1,0 +1,566 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.6.4",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "team_green": [
+        {
+          "file": "teams/team-green/.DS_Store",
+          "hash": "4901537200981981464"
+        },
+        {
+          "file": "teams/team-green/.babelrc",
+          "hash": "13020124393823981135"
+        },
+        {
+          "file": "teams/team-green/.eslintrc.json",
+          "hash": "12678463301772327123"
+        },
+        {
+          "file": "teams/team-green/jest.config.ts",
+          "hash": "2682423289261744031"
+        },
+        {
+          "file": "teams/team-green/package.json",
+          "hash": "403945908599955358"
+        },
+        {
+          "file": "teams/team-green/project.json",
+          "hash": "18264748572114226698"
+        },
+        {
+          "file": "teams/team-green/src/.DS_Store",
+          "hash": "228866814447391931"
+        },
+        {
+          "file": "teams/team-green/src/app/app.tsx",
+          "hash": "13041785527963335972"
+        },
+        {
+          "file": "teams/team-green/src/app/team-green-recos-v2.tsx",
+          "hash": "11004232769297706077"
+        },
+        {
+          "file": "teams/team-green/src/app/team-green-recos.tsx",
+          "hash": "1234961824133006078"
+        },
+        {
+          "file": "teams/team-green/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "teams/team-green/src/assets/team-green/images/reco_1.jpg",
+          "hash": "17556311171990639446"
+        },
+        {
+          "file": "teams/team-green/src/assets/team-green/images/reco_2.jpg",
+          "hash": "5577257614475082852"
+        },
+        {
+          "file": "teams/team-green/src/assets/team-green/images/reco_3.jpg",
+          "hash": "3647571698701513111"
+        },
+        {
+          "file": "teams/team-green/src/assets/team-green/images/reco_4.jpg",
+          "hash": "8209294202791953785"
+        },
+        {
+          "file": "teams/team-green/src/assets/team-green/images/reco_5.jpg",
+          "hash": "5159232616479367218"
+        },
+        {
+          "file": "teams/team-green/src/assets/team-green/images/reco_6.jpg",
+          "hash": "4814548442509158323"
+        },
+        {
+          "file": "teams/team-green/src/assets/team-green/images/reco_7.jpg",
+          "hash": "15743973916253430090"
+        },
+        {
+          "file": "teams/team-green/src/assets/team-green/images/reco_8.jpg",
+          "hash": "5087334373814972048"
+        },
+        {
+          "file": "teams/team-green/src/assets/team-green/images/reco_9.jpg",
+          "hash": "12829029214300474096"
+        },
+        {
+          "file": "teams/team-green/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "teams/team-green/src/index.html",
+          "hash": "17432789573950373242"
+        },
+        {
+          "file": "teams/team-green/src/main.tsx",
+          "hash": "3856793512724663860"
+        },
+        {
+          "file": "teams/team-green/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "teams/team-green/tsconfig.app.json",
+          "hash": "16758460447342625024"
+        },
+        {
+          "file": "teams/team-green/tsconfig.json",
+          "hash": "858361351329009520"
+        },
+        {
+          "file": "teams/team-green/tsconfig.spec.json",
+          "hash": "8070145506705938294"
+        },
+        {
+          "file": "teams/team-green/webpack.config.ts",
+          "hash": "9601913227518789050"
+        }
+      ],
+      "team_red": [
+        {
+          "file": "teams/team-red/.DS_Store",
+          "hash": "2397526448332647428"
+        },
+        {
+          "file": "teams/team-red/.babelrc",
+          "hash": "13020124393823981135"
+        },
+        {
+          "file": "teams/team-red/.eslintrc.json",
+          "hash": "12678463301772327123"
+        },
+        {
+          "file": "teams/team-red/@mf-types/.DS_Store",
+          "hash": "17876736532042189523"
+        },
+        {
+          "file": "teams/team-red/@mf-types/index.d.ts",
+          "hash": "14227140010050023986"
+        },
+        {
+          "file": "teams/team-red/@mf-types/team_blue/BlueBasket.d.ts",
+          "hash": "10789764429534831690"
+        },
+        {
+          "file": "teams/team-red/@mf-types/team_blue/BlueBuy.d.ts",
+          "hash": "2226070140111859906"
+        },
+        {
+          "file": "teams/team-red/@mf-types/team_blue/apis.d.ts",
+          "hash": "1782011983361004867"
+        },
+        {
+          "file": "teams/team-red/@mf-types/team_blue/compiled-types/apps/team-blue/src/app/team-blue-basket.d.ts",
+          "hash": "4630530149814985812"
+        },
+        {
+          "file": "teams/team-red/@mf-types/team_blue/compiled-types/apps/team-blue/src/app/team-blue-buy.d.ts",
+          "hash": "18062642449912483088"
+        },
+        {
+          "file": "teams/team-red/@mf-types/team_green/GreenRecos.d.ts",
+          "hash": "470437047909355139"
+        },
+        {
+          "file": "teams/team-red/@mf-types/team_green/apis.d.ts",
+          "hash": "12259705676732747307"
+        },
+        {
+          "file": "teams/team-red/@mf-types/team_green/compiled-types/apps/team-green/src/app/team-green-recos.d.ts",
+          "hash": "11497971725508591456"
+        },
+        {
+          "file": "teams/team-red/jest.config.ts",
+          "hash": "6186950574566586215"
+        },
+        {
+          "file": "teams/team-red/package.json",
+          "hash": "3539271202160814522"
+        },
+        {
+          "file": "teams/team-red/project.json",
+          "hash": "10718834981619914280"
+        },
+        {
+          "file": "teams/team-red/src/.DS_Store",
+          "hash": "13187062743154646860"
+        },
+        {
+          "file": "teams/team-red/src/app/app.tsx",
+          "hash": "6529425145964522613"
+        },
+        {
+          "file": "teams/team-red/src/app/team-red-layout.tsx",
+          "hash": "5261087693238922846"
+        },
+        {
+          "file": "teams/team-red/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "teams/team-red/src/assets/team-green/images/reco_1.jpg",
+          "hash": "17556311171990639446"
+        },
+        {
+          "file": "teams/team-red/src/assets/team-green/images/reco_2.jpg",
+          "hash": "5577257614475082852"
+        },
+        {
+          "file": "teams/team-red/src/assets/team-green/images/reco_3.jpg",
+          "hash": "3647571698701513111"
+        },
+        {
+          "file": "teams/team-red/src/assets/team-green/images/reco_4.jpg",
+          "hash": "8209294202791953785"
+        },
+        {
+          "file": "teams/team-red/src/assets/team-green/images/reco_5.jpg",
+          "hash": "5159232616479367218"
+        },
+        {
+          "file": "teams/team-red/src/assets/team-green/images/reco_6.jpg",
+          "hash": "4814548442509158323"
+        },
+        {
+          "file": "teams/team-red/src/assets/team-green/images/reco_7.jpg",
+          "hash": "15743973916253430090"
+        },
+        {
+          "file": "teams/team-red/src/assets/team-green/images/reco_8.jpg",
+          "hash": "5087334373814972048"
+        },
+        {
+          "file": "teams/team-red/src/assets/team-green/images/reco_9.jpg",
+          "hash": "12829029214300474096"
+        },
+        {
+          "file": "teams/team-red/src/assets/team-red/images/tractor-blue-thumb.jpg",
+          "hash": "17674508712146352728"
+        },
+        {
+          "file": "teams/team-red/src/assets/team-red/images/tractor-blue.jpg",
+          "hash": "7756663911126740562"
+        },
+        {
+          "file": "teams/team-red/src/assets/team-red/images/tractor-green-thumb.jpg",
+          "hash": "17271036766559193369"
+        },
+        {
+          "file": "teams/team-red/src/assets/team-red/images/tractor-green.jpg",
+          "hash": "9714113030550561706"
+        },
+        {
+          "file": "teams/team-red/src/assets/team-red/images/tractor-red-thumb.jpg",
+          "hash": "3666080082351889062"
+        },
+        {
+          "file": "teams/team-red/src/assets/team-red/images/tractor-red.jpg",
+          "hash": "10943161720355797080"
+        },
+        {
+          "file": "teams/team-red/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "teams/team-red/src/index.html",
+          "hash": "13283894790204770825"
+        },
+        {
+          "file": "teams/team-red/src/main.tsx",
+          "hash": "3856793512724663860"
+        },
+        {
+          "file": "teams/team-red/src/styles.css",
+          "hash": "2913395337634422838"
+        },
+        {
+          "file": "teams/team-red/tsconfig.app.json",
+          "hash": "10590179732311278967"
+        },
+        {
+          "file": "teams/team-red/tsconfig.json",
+          "hash": "14132697196888401801"
+        },
+        {
+          "file": "teams/team-red/tsconfig.spec.json",
+          "hash": "8070145506705938294"
+        },
+        {
+          "file": "teams/team-red/webpack.config.ts",
+          "hash": "9252415499316948680"
+        }
+      ],
+      "team_blue": [
+        {
+          "file": "teams/team-blue/.DS_Store",
+          "hash": "7413691042645359563"
+        },
+        {
+          "file": "teams/team-blue/.babelrc",
+          "hash": "13020124393823981135"
+        },
+        {
+          "file": "teams/team-blue/.eslintrc.json",
+          "hash": "12678463301772327123"
+        },
+        {
+          "file": "teams/team-blue/jest.config.ts",
+          "hash": "5309459595321021199"
+        },
+        {
+          "file": "teams/team-blue/package.json",
+          "hash": "6012445156404579747"
+        },
+        {
+          "file": "teams/team-blue/project.json",
+          "hash": "17913690842230924763"
+        },
+        {
+          "file": "teams/team-blue/src/.DS_Store",
+          "hash": "6597640876732993921"
+        },
+        {
+          "file": "teams/team-blue/src/app/app.tsx",
+          "hash": "6107692350377305952"
+        },
+        {
+          "file": "teams/team-blue/src/app/team-blue-basket.tsx",
+          "hash": "12628083870760118304"
+        },
+        {
+          "file": "teams/team-blue/src/app/team-blue-buy.tsx",
+          "hash": "11916236347642313109"
+        },
+        {
+          "file": "teams/team-blue/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "teams/team-blue/src/index.html",
+          "hash": "2915404486650625668"
+        },
+        {
+          "file": "teams/team-blue/src/main.tsx",
+          "hash": "3856793512724663860"
+        },
+        {
+          "file": "teams/team-blue/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "teams/team-blue/tsconfig.app.json",
+          "hash": "16758460447342625024"
+        },
+        {
+          "file": "teams/team-blue/tsconfig.json",
+          "hash": "858361351329009520"
+        },
+        {
+          "file": "teams/team-blue/tsconfig.spec.json",
+          "hash": "8070145506705938294"
+        },
+        {
+          "file": "teams/team-blue/webpack.config.ts",
+          "hash": "6736985075982004698"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".DS_Store",
+        "hash": "17730292388071587581"
+      },
+      {
+        "file": "README.md",
+        "hash": "12846906095204717138"
+      },
+      {
+        "file": "dist/.DS_Store",
+        "hash": "5121926130371169689"
+      },
+      {
+        "file": "dist/apps/.DS_Store",
+        "hash": "999657696995586109"
+      },
+      {
+        "file": "dist/apps/team-blue/.DS_Store",
+        "hash": "17673469159856978902"
+      },
+      {
+        "file": "dist/apps/team-blue/.dev-server.zip",
+        "hash": "5663191671236866346"
+      },
+      {
+        "file": "dist/apps/team-blue/.dev-server/BlueBasket.d.ts",
+        "hash": "10789764429534831690"
+      },
+      {
+        "file": "dist/apps/team-blue/.dev-server/BlueBuy.d.ts",
+        "hash": "2226070140111859906"
+      },
+      {
+        "file": "dist/apps/team-blue/.dev-server/compiled-types/apps/team-blue/src/app/team-blue-basket.d.ts",
+        "hash": "4630530149814985812"
+      },
+      {
+        "file": "dist/apps/team-blue/.dev-server/compiled-types/apps/team-blue/src/app/team-blue-buy.d.ts",
+        "hash": "18062642449912483088"
+      },
+      {
+        "file": "dist/apps/team-blue/@mf-types.d.ts",
+        "hash": "2897293664280019335"
+      },
+      {
+        "file": "dist/apps/team-blue/@mf-types.zip",
+        "hash": "10312204845901304997"
+      },
+      {
+        "file": "dist/apps/team-blue/@mf-types/BlueBasket.d.ts",
+        "hash": "10789764429534831690"
+      },
+      {
+        "file": "dist/apps/team-blue/@mf-types/BlueBuy.d.ts",
+        "hash": "2226070140111859906"
+      },
+      {
+        "file": "dist/apps/team-blue/@mf-types/compiled-types/apps/team-blue/src/app/team-blue-basket.d.ts",
+        "hash": "4630530149814985812"
+      },
+      {
+        "file": "dist/apps/team-blue/@mf-types/compiled-types/apps/team-blue/src/app/team-blue-buy.d.ts",
+        "hash": "18062642449912483088"
+      },
+      {
+        "file": "dist/apps/team-green/.DS_Store",
+        "hash": "3707653911555967280"
+      },
+      {
+        "file": "dist/apps/team-green/.dev-server.zip",
+        "hash": "3289422499136451023"
+      },
+      {
+        "file": "dist/apps/team-green/.dev-server/GreenRecos.d.ts",
+        "hash": "14780900044936962320"
+      },
+      {
+        "file": "dist/apps/team-green/.dev-server/compiled-types/apps/team-green/src/app/team-green-recos.d.ts",
+        "hash": "11497971725508591456"
+      },
+      {
+        "file": "dist/apps/team-green/.dev-server/compiled-types/teams/team-green/src/app/team-green-recos.d.ts",
+        "hash": "11497971725508591456"
+      },
+      {
+        "file": "dist/apps/team-green/@mf-types.d.ts",
+        "hash": "2873916280271135202"
+      },
+      {
+        "file": "dist/apps/team-green/@mf-types.zip",
+        "hash": "10373205444921907063"
+      },
+      {
+        "file": "dist/apps/team-green/@mf-types/GreenRecos.d.ts",
+        "hash": "14780900044936962320"
+      },
+      {
+        "file": "dist/apps/team-green/@mf-types/compiled-types/apps/team-green/src/app/team-green-recos.d.ts",
+        "hash": "11497971725508591456"
+      },
+      {
+        "file": "dist/apps/team-green/@mf-types/compiled-types/teams/team-green/src/app/team-green-recos.d.ts",
+        "hash": "11497971725508591456"
+      },
+      {
+        "file": "dist/apps/team-red/.DS_Store",
+        "hash": "16568521854244043284"
+      },
+      {
+        "file": "dist/apps/team-red/.dev-server.zip",
+        "hash": "5234886387715275210"
+      },
+      {
+        "file": "dist/apps/team-red/.dev-server/TeamRedLayout.d.ts",
+        "hash": "4109219053989318351"
+      },
+      {
+        "file": "dist/apps/team-red/.dev-server/compiled-types/apps/team-red/src/app/team-red-layout.d.ts",
+        "hash": "11988864738854467004"
+      },
+      {
+        "file": "dist/apps/team-red/@mf-types.d.ts",
+        "hash": "31686533723023122"
+      },
+      {
+        "file": "dist/apps/team-red/@mf-types.zip",
+        "hash": "7342523122480392380"
+      },
+      {
+        "file": "dist/apps/team-red/@mf-types/TeamRedLayout.d.ts",
+        "hash": "4109219053989318351"
+      },
+      {
+        "file": "dist/apps/team-red/@mf-types/compiled-types/apps/team-red/src/app/team-red-layout.d.ts",
+        "hash": "11988864738854467004"
+      },
+      {
+        "file": "dist/teams/team-blue/.dev-server.zip",
+        "hash": "3052373260526218837"
+      },
+      {
+        "file": "dist/teams/team-blue/.dev-server/BlueBasket.d.ts",
+        "hash": "13809054344300139105"
+      },
+      {
+        "file": "dist/teams/team-blue/.dev-server/BlueBuy.d.ts",
+        "hash": "5262956224774207561"
+      },
+      {
+        "file": "dist/teams/team-blue/.dev-server/compiled-types/teams/team-blue/src/app/team-blue-basket.d.ts",
+        "hash": "4630530149814985812"
+      },
+      {
+        "file": "dist/teams/team-blue/.dev-server/compiled-types/teams/team-blue/src/app/team-blue-buy.d.ts",
+        "hash": "18062642449912483088"
+      },
+      {
+        "file": "dist/teams/team-blue/@mf-types.d.ts",
+        "hash": "2897293664280019335"
+      },
+      {
+        "file": "dist/teams/team-blue/@mf-types.zip",
+        "hash": "3052373260526218837"
+      },
+      {
+        "file": "dist/teams/team-blue/@mf-types/BlueBasket.d.ts",
+        "hash": "13809054344300139105"
+      },
+      {
+        "file": "dist/teams/team-blue/@mf-types/BlueBuy.d.ts",
+        "hash": "5262956224774207561"
+      },
+      {
+        "file": "dist/teams/team-blue/@mf-types/compiled-types/teams/team-blue/src/app/team-blue-basket.d.ts",
+        "hash": "4630530149814985812"
+      },
+      {
+        "file": "dist/teams/team-blue/@mf-types/compiled-types/teams/team-blue/src/app/team-blue-buy.d.ts",
+        "hash": "18062642449912483088"
+      },
+      {
+        "file": "package.json",
+        "hash": "15365066575498128646"
+      },
+      {
+        "file": "teams/.DS_Store",
+        "hash": "7714769721959068298"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "14795113840530326440"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "team_red",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "nx run team_red:build --skip-nx-cache"
+  },
+  "private": true,
+  "zephyr:dependencies": {
+    "team_green": "team_green@*",
+    "team_blue": "team_blue@*"
+  }
+}
