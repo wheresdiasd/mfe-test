@@ -1,62 +1,65 @@
-// In apps/teams/module-activities/src/app/use-activities.tsx
-
-import { useQuery } from "@tanstack/react-query";
-import { from, Observable, shareReplay } from "rxjs";
-import { useEffect, useMemo } from "react";
-
-export interface Activity {
-  id: string;
-  type: string;
-  title: string;
-  description: string;
-  timestamp: string;
-}
-
-const fetchActivitiesMock = async (): Promise<Activity[]> => {
-  await new Promise((resolve) => setTimeout(resolve, 500));
-
-  const mockActivities: Activity[] = Array.from({ length: 10 }, (_, i) => ({
-    id: `act-${i + 1}`,
-    type: ["login", "purchase", "view", "share"][Math.floor(Math.random() * 4)],
-    title: `Activity ${i + 1}`,
-    description: `This is a mock activity description for activity ${i + 1}`,
-    timestamp: new Date(
-      Date.now() - Math.random() * 7 * 24 * 60 * 60 * 1000,
-    ).toISOString(),
-  }));
-
-  mockActivities.sort(
-    (a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime(),
-  );
-
-  return mockActivities;
-};
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import {
+  Activity,
+  fetchActivities,
+  ACTIVITIES_QUERY_KEY,
+} from "./module-activities-store";
 
 export function useActivities() {
-  const { data, isLoading, error, refetch } = useQuery<Activity[]>({
-    queryKey: ["activities"],
-    queryFn: fetchActivitiesMock,
-    staleTime: 5 * 60 * 1000, // 5 minutes
+  const queryClient = useQueryClient();
+
+  const {
+    data: activities = [],
+    isLoading,
+    isFetching,
+  } = useQuery({
+    queryKey: [ACTIVITIES_QUERY_KEY],
+    queryFn: fetchActivities,
   });
 
-  const activities$: Observable<Activity[]> = useMemo(() => {
-    return from(Promise.resolve(data || [])).pipe(shareReplay(1));
-  }, [data]);
+  const addActivity = useMutation({
+    mutationFn: async (activity: Omit<Activity, "id" | "timestamp">) => {
+      const newActivity: Activity = {
+        ...activity,
+        id: `act-${Date.now()}`,
+        timestamp: new Date().toISOString(),
+      };
 
-  useEffect(() => {
-    const subscription = activities$.subscribe((activities) => {
-      console.log("Activities updated:", activities);
-    });
-    return () => subscription.unsubscribe();
-  }, [activities$]);
+      const currentActivities =
+        queryClient.getQueryData<Activity[]>([ACTIVITIES_QUERY_KEY]) || [];
+      queryClient.setQueryData(
+        [ACTIVITIES_QUERY_KEY],
+        [newActivity, ...currentActivities],
+      );
+
+      return Promise.resolve(newActivity);
+    },
+  });
+
+  const removeActivity = useMutation({
+    mutationFn: async (id: string) => {
+      const currentActivities =
+        queryClient.getQueryData<Activity[]>([ACTIVITIES_QUERY_KEY]) || [];
+      queryClient.setQueryData(
+        [ACTIVITIES_QUERY_KEY],
+        currentActivities.filter((activity) => activity.id !== id),
+      );
+
+      return Promise.resolve(id);
+    },
+  });
 
   return {
-    activities: data || [],
-    isLoading,
-    error,
-    refresh: refetch,
-    activities$,
+    activities,
+    loading: isLoading || isFetching,
+    count: activities.length,
+    addActivity: (activity: Omit<Activity, "id" | "timestamp">) =>
+      addActivity.mutate(activity),
+    removeActivity: (id: string) => removeActivity.mutate(id),
+    refresh: () =>
+      queryClient.invalidateQueries({ queryKey: [ACTIVITIES_QUERY_KEY] }),
   };
 }
 
 export default useActivities;
+export type { Activity };

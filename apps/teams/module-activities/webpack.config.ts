@@ -8,13 +8,12 @@ const mfConfig: ModuleFederationConfig = {
   name: "module_activities",
   exposes: {
     "./ActivitiesList": "./src/app/module-activities-list.tsx",
-    "./BlueBuy": "./src/app/team-blue-buy.tsx",
+    "./ActivityCountBadge": "./src/app/module-activities-countbadge.tsx",
   },
   additionalShared: [
     ["react", { singleton: true }],
     ["react-dom", { singleton: true }],
     ["@tanstack/react-query", { singleton: true }],
-    ["rxjs", { singleton: true }],
   ],
 };
 

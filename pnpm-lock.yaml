@@ -121,9 +121,6 @@ importers:
       '@tanstack/react-query-devtools':
         specifier: ^5.81.2
         version: 5.81.2(@tanstack/react-query@5.81.2(react@18.3.1))(react@18.3.1)
-      rxjs:
-        specifier: ^7.8.2
-        version: 7.8.2
     devDependencies:
       process:
         specifier: ^0.11.10
@@ -261,9 +258,6 @@ importers:
       '@tanstack/react-query-devtools':
         specifier: ^5.81.2
         version: 5.81.2(@tanstack/react-query@5.81.2(react@18.3.1))(react@18.3.1)
-      rxjs:
-        specifier: ^7.8.2
-        version: 7.8.2
 
   apps/teams/module-app:
     dependencies:
@@ -273,9 +267,6 @@ importers:
       '@tanstack/react-query-devtools':
         specifier: ^5.81.2
         version: 5.81.2(@tanstack/react-query@5.81.2(react@18.3.1))(react@18.3.1)
-      rxjs:
-        specifier: ^7.8.2
-        version: 7.8.2
 
   apps/teams/module-storefront: {}
 

@@ -7,13 +7,12 @@ import { withZephyr } from "zephyr-webpack-plugin";
 const mfConfig: ModuleFederationConfig = {
   name: "module_storefront",
   exposes: {
-    // "./StorefrontRecos": "./src/app/storefront-recos.tsx",
     "./StorefrontHeader": "./src/app/storefront-header.tsx",
-    // "./StorefrontFooter": "./src/app/storefront-footer.tsx",
   },
   additionalShared: [
     ["react", { singleton: true }],
     ["react-dom", { singleton: true }],
+    ["@tanstack/react-query", { singleton: true }],
   ],
 };
 
@@ -22,5 +21,5 @@ module.exports = composePlugins(
   withNx(),
   withReact(),
   withModuleFederation(mfConfig),
-  withZephyr()
+  withZephyr(),
 );

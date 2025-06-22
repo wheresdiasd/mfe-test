@@ -14,7 +14,6 @@ const mfConfig: ModuleFederationConfig = {
     ["react", { singleton: true }],
     ["react-dom", { singleton: true }],
     ["@tanstack/react-query", { singleton: true }],
-    ["rxjs", { singleton: true }],
   ],
   remotes: ["module_storefront", "module_activities"],
 };

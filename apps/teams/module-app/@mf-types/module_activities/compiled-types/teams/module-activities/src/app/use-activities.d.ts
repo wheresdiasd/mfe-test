@@ -1,16 +1,10 @@
-import { Observable } from "rxjs";
-export interface Activity {
-    id: string;
-    type: string;
-    title: string;
-    description: string;
-    timestamp: string;
-}
+import { Activity, addActivity, removeActivity } from './module-activities-store';
 export declare function useActivities(): {
     activities: Activity[];
-    isLoading: boolean;
-    error: Error | null;
-    refresh: (options?: import("@tanstack/react-query").RefetchOptions) => Promise<import("@tanstack/react-query").QueryObserverResult<Activity[], Error>>;
-    activities$: Observable<Activity[]>;
+    loading: boolean;
+    addActivity: typeof addActivity;
+    removeActivity: typeof removeActivity;
+    refresh: () => Promise<void>;
 };
 export default useActivities;
+export type { Activity };
