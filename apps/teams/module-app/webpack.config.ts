@@ -5,7 +5,7 @@ import { composePlugins, withNx } from '@nx/webpack';
 import { withZephyr } from 'zephyr-webpack-plugin';
 
 const mfConfig: ModuleFederationConfig = {
-  name: 'team_red',
+  name: 'module_app',
   exposes: {
     './TeamRedLayout': './src/app/team-red-layout',
   },

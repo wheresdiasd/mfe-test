@@ -1,8 +1,8 @@
 {
-  "name": "team_red",
+  "name": "module_app",
   "version": "0.1.0",
   "scripts": {
-    "build": "nx run team_red:build --skip-nx-cache"
+    "build": "nx run module_app:build --skip-nx-cache"
   },
   "private": true,
   "zephyr:dependencies": {

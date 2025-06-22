@@ -233,9 +233,9 @@ importers:
 
   apps/teams/module-activities: {}
 
-  apps/teams/module-storefront: {}
+  apps/teams/module-app: {}
 
-  apps/teams/team-red: {}
+  apps/teams/module-storefront: {}
 
   scripts:
     dependencies:

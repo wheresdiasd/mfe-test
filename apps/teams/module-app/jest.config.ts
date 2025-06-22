@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'team-red',
+  displayName: 'module-app',
   preset: '../../../../jest.preset.js',
   transform: {
     '^(?!.*\\.(js|jsx|ts|tsx|css|json)$)': '@nx/react/plugins/jest',
@@ -8,5 +8,5 @@ export default {
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
   coverageDirectory:
-    '../../coverage/apps/team-red',
+    '../../coverage/apps/module-app',
 };

@@ -228,19 +228,19 @@
         "implicitDependencies": []
       }
     },
-    "team_red": {
-      "name": "team_red",
+    "module_app": {
+      "name": "module_app",
       "type": "app",
       "data": {
-        "root": "teams/team-red",
-        "name": "team_red",
+        "root": "teams/module-app",
+        "name": "module_app",
         "tags": [
           "npm:private"
         ],
         "metadata": {
           "targetGroups": {},
           "js": {
-            "packageName": "team_red",
+            "packageName": "module_app",
             "isInPackageManagerWorkspaces": false
           }
         },
@@ -253,23 +253,23 @@
             "defaultConfiguration": "production",
             "options": {
               "compiler": "swc",
-              "outputPath": "dist/teams/team-red",
-              "index": "teams/team-red/src/index.html",
+              "outputPath": "dist/teams/module-app",
+              "index": "teams/module-app/src/index.html",
               "baseHref": "/",
-              "main": "teams/team-red/src/main.tsx",
-              "tsConfig": "teams/team-red/tsconfig.app.json",
+              "main": "teams/module-app/src/main.tsx",
+              "tsConfig": "teams/module-app/tsconfig.app.json",
               "assets": [
                 {
                   "glob": "**/*",
-                  "input": "teams/team-red/src/assets",
+                  "input": "teams/module-app/src/assets",
                   "output": "."
                 }
               ],
               "styles": [
-                "teams/team-red/src/styles.css"
+                "teams/module-app/src/styles.css"
               ],
               "scripts": [],
-              "webpackConfig": "teams/team-red/webpack.config.ts"
+              "webpackConfig": "teams/module-app/webpack.config.ts"
             },
             "configurations": {
               "development": {
@@ -294,15 +294,15 @@
             "defaultConfiguration": "development",
             "options": {
               "port": 4500,
-              "buildTarget": "team_red:build",
+              "buildTarget": "module_app:build",
               "hmr": false
             },
             "configurations": {
               "development": {
-                "buildTarget": "team_red:build:development"
+                "buildTarget": "module_app:build:development"
               },
               "production": {
-                "buildTarget": "team_red:build:production",
+                "buildTarget": "module_app:build:production",
                 "hmr": false
               }
             },
@@ -312,7 +312,7 @@
             "executor": "@nx/eslint:lint",
             "options": {
               "lintFilePatterns": [
-                "teams/team-red/**/*.{ts,tsx,js,jsx}"
+                "teams/module-app/**/*.{ts,tsx,js,jsx}"
               ]
             },
             "configurations": {},
@@ -324,7 +324,7 @@
               "{workspaceRoot}/coverage/{projectRoot}"
             ],
             "options": {
-              "jestConfig": "teams/team-red/jest.config.ts",
+              "jestConfig": "teams/module-app/jest.config.ts",
               "passWithNoTests": true
             },
             "configurations": {
@@ -337,7 +337,7 @@
           }
         },
         "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "teams/team-red/src",
+        "sourceRoot": "teams/module-app/src",
         "projectType": "application",
         "implicitDependencies": []
       }
@@ -347,9 +347,9 @@
   "dependencies": {
     "module_activities": [],
     "module_storefront": [],
-    "team_red": []
+    "module_app": []
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1750586880814
+  "computedAt": 1750587616752
 }

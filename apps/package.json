@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "nx run-many -t build --parallel=1 --skip-nx-cache -p module_activities module_storefront team_red --verbose",
-    "build:team-red": "nx run team_red:build:production --skip-nx-cache",
+    "build": "nx run-many -t build --parallel=1 --skip-nx-cache -p module_activities module_storefront module-app --verbose",
+    "build:module-app": "nx run module-app:build:production --skip-nx-cache",
     "build:module-activities": "nx run module_activities:build:production --skip-nx-cache",
     "build:module-storefront": "nx run module_storefront:build:production --skip-nx-cache  --watch"
   },
