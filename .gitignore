@@ -6,5 +6,6 @@
 */teams/node_modules/
 */teams/dist/
 */node_modules/
-*/.nx
-./nx
+*/.nx/
+*/*/.nx/
+./nx/
