@@ -1,4 +1,5 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import { useEffect } from "react";
 import {
   Activity,
   fetchActivities,
@@ -16,6 +17,32 @@ export function useActivities() {
     queryKey: [ACTIVITIES_QUERY_KEY],
     queryFn: fetchActivities,
   });
+
+  useEffect(() => {
+    const count = activities.length;
+    
+    window.dispatchEvent(
+      new CustomEvent('activities:count-updated', { 
+        detail: { count, activities } 
+      })
+    );
+  }, [activities]);
+
+  useEffect(() => {
+    const handleCountRequest = () => {
+      window.dispatchEvent(
+        new CustomEvent('activities:count-updated', { 
+          detail: { count: activities.length, activities } 
+        })
+      );
+    };
+
+    window.addEventListener('activities:request-count', handleCountRequest);
+    
+    return () => {
+      window.removeEventListener('activities:request-count', handleCountRequest);
+    };
+  }, [activities]);
 
   const addActivity = useMutation({
     mutationFn: async (activity: Omit<Activity, "id" | "timestamp">) => {
