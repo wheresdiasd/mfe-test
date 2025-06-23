@@ -1,7 +1,5 @@
 # Valor MFE Zephyr Project
 
-Links:
-
 MFE is divided in 3 modules: 
 <img width="816" alt="Screenshot 2025-06-23 at 07 17 23" src="https://github.com/user-attachments/assets/68d8b007-b958-4176-8a71-b212562efc4e" />
 
