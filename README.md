@@ -117,10 +117,19 @@ pnpm build:module-activities
 pnpm build:module-storefront
 ```
 
+
+#### As an Example Jest tests are configured and running for module activities
+```bash
+# On the module directory run:
+pnpm test
+
+```
+
 ## Technologies Used
 - React 18
 - Tailwind CSS
 - React Query
+- Jest for tests
 - Module Federation
 - Nx Workspace
 - Zephyr Cloud

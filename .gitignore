@@ -9,4 +9,4 @@
 */.nx/
 */*/.nx/
 ./nx/
-./apps/.nx/
+./apps/.nx/*
