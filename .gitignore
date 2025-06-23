@@ -7,3 +7,4 @@
 */teams/dist/
 */node_modules/
 */.nx
+./nx

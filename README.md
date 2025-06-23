@@ -2,7 +2,7 @@
 
 ## 🚨 IMPORTANT WORKSPACE SETUP DISCLAIMER 🚨
 
-**BUILD/SERVE COMMANDS MUST BE RUN FROM THE `apps/` (WORSKPACE) DIRECTORY**
+**ALL COMMANDS MUST BE RUN FROM THE `apps/` DIRECTORY**
 - Change directory to `apps/` before executing any commands
 - Failure to do so will result in command failures or unexpected behavior
 
@@ -14,6 +14,15 @@ cd apps/
 pnpm i
 npx nx run module_storefront:serve
 ```
+
+## Project Overview
+
+### 🔍 Activities Module Note
+**IMPORTANT**: The activities module uses **MOCKED DATA ONLY**
+- All activities are simulated for demonstration purposes
+- No real backend or persistent storage is implemented
+- Activities are generated dynamically during runtime
+- Primarily used to showcase Module Federation and React Query integration
 
 ## Workspace Architecture
 
@@ -50,7 +59,7 @@ This project uses a modern monorepo approach with:
 ### Federated Modules
 1. **module_app**: Central application shell
 2. **module_storefront**: Storefront-specific functionality
-3. **module_activities**: Activities management
+3. **module_activities**: Mocked activities management module
 
 ## Development Workflow
 
@@ -90,17 +99,6 @@ pnpm build
 pnpm build:module-app
 pnpm build:module-activities
 pnpm build:module-storefront
-```
-
-### Detailed Build Configurations
-From `apps/package.json` build scripts:
-```json
-"scripts": {
-  "build": "nx run-many -t build --parallel=1 --skip-nx-cache -p module_activities module_storefront module_app --verbose",
-  "build:module-app": "nx run module_app:build:production --skip-nx-cache",
-  "build:module-activities": "nx run module_activities:build:production --skip-nx-cache",
-  "build:module-storefront": "nx run module_storefront:build:production --skip-nx-cache --watch"
-}
 ```
 
 ## Technologies Used
