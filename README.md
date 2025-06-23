@@ -11,6 +11,8 @@ https://diego-dias-852-module-app-mfe-test-wheresdiasd-d029e4ba4-ze.zephyrcloud.
 https://diego-dias-850-module-storefront-mfe-test-wheresd-72ccd66c6-ze.zephyrcloud.app/  ( Header link )
 https://diego-dias-851-module-activities-mfe-test-wheresd-acf782368-ze.zephyrcloud.app/ ( Activities link )
 
+PS: Team red is a left over in this scenario.
+
 
 ## 🚨 IMPORTANT WORKSPACE SETUP DISCLAIMER 🚨
 
