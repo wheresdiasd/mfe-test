@@ -1,5 +1,12 @@
 # Valor MFE Zephyr Project
 
+Links:
+
+https://diego-dias-852-module-app-mfe-test-wheresdiasd-d029e4ba4-ze.zephyrcloud.app/  ( Application link ) 
+https://diego-dias-850-module-storefront-mfe-test-wheresd-72ccd66c6-ze.zephyrcloud.app/  ( Header link )
+https://diego-dias-851-module-activities-mfe-test-wheresd-acf782368-ze.zephyrcloud.app/ ( Activities link )
+
+
 ## 🚨 IMPORTANT WORKSPACE SETUP DISCLAIMER 🚨
 
 **ALL COMMANDS MUST BE RUN FROM THE `apps/` DIRECTORY**
