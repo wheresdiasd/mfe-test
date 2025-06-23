@@ -35,6 +35,10 @@
           "hash": "11988864738854467004"
         },
         {
+          "file": "teams/module-activities/jest.config.clean.ts",
+          "hash": "8777046046532371263"
+        },
+        {
           "file": "teams/module-activities/jest.config.ts",
           "hash": "7091832110547054190"
         },
@@ -55,12 +59,24 @@
           "hash": "6597640876732993921"
         },
         {
+          "file": "teams/module-activities/src/app/__mocks__/mockData.ts",
+          "hash": "8623656624448750528"
+        },
+        {
           "file": "teams/module-activities/src/app/app.tsx",
           "hash": "2428764687392341356"
         },
         {
+          "file": "teams/module-activities/src/app/module-activities-countbadge.test.tsx",
+          "hash": "743645859426372921"
+        },
+        {
           "file": "teams/module-activities/src/app/module-activities-countbadge.tsx",
           "hash": "17333070785618775034"
+        },
+        {
+          "file": "teams/module-activities/src/app/module-activities-list.test.tsx",
+          "hash": "8270135743667783754"
         },
         {
           "file": "teams/module-activities/src/app/module-activities-list.tsx",
@@ -69,6 +85,10 @@
         {
           "file": "teams/module-activities/src/app/module-activities-store.ts",
           "hash": "4462057802934063081"
+        },
+        {
+          "file": "teams/module-activities/src/app/use-activities.test.tsx",
+          "hash": "2437960381145697737"
         },
         {
           "file": "teams/module-activities/src/app/use-activities.tsx",
