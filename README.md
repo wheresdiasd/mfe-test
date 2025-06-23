@@ -15,7 +15,6 @@ MFE is divided in 3 modules:
 
 PS: Team red is a left over in this scenario.
 
-
 ## 🚨 IMPORTANT WORKSPACE SETUP DISCLAIMER 🚨
 
 **ALL COMMANDS MUST BE RUN FROM THE `apps/` DIRECTORY**
@@ -124,6 +123,8 @@ pnpm build:module-storefront
 pnpm test
 
 ```
+
+<img width="913" alt="Screenshot 2025-06-23 at 07 15 26" src="https://github.com/user-attachments/assets/c6b097db-5a26-4165-8c1a-c9f4949473ce" />
 
 ## Technologies Used
 - React 18
